@@ -63,9 +63,9 @@ export async function GET(request: NextRequest) {
       status: 'shipped',
       createdAt: '2024-01-15T10:30:00Z',
       updatedAt: '2024-01-16T09:15:00Z',
-      subtotal: 31597000,
+      subtotal: 50000,
       shippingCost: 15000,
-      total: 31612000,
+      total: 65000,
       paymentMethod: 'transfer',
       courier: {
         id: 'jne',
@@ -73,24 +73,17 @@ export async function GET(request: NextRequest) {
         trackingNumber: 'JNE1234567890'
       },
       address: {
-        name: 'John Doe',
+        name: 'Bahlil',
         phone: '0812-3456-7890',
         address: 'Jl. Sudirman No. 123, RT 001/RW 002, Kel. Senayan, Kec. Kebayoran Baru, Jakarta Selatan, DKI Jakarta, 12190'
       },
       products: [
         {
           id: '1',
-          name: 'iPhone 15 Pro Max 256GB Natural Titanium',
-          price: 24999000,
+          name: 'Jasa Service Laptop & PC',
+          price: 50000,
           quantity: 1,
-          variant: '256GB, Natural Titanium'
-        },
-        {
-          id: '2',
-          name: 'AirPods Pro 2nd Generation with MagSafe Case',
-          price: 3299000,
-          quantity: 2,
-          variant: 'White'
+          variant: 'Jasa Service Laptop'
         }
       ]
     }
