@@ -21,7 +21,7 @@ export default function CheckoutPage() {
   const addresses = [
     {
       id: '1',
-      name: 'John Doe',
+      name: 'Bahlil',
       phone: '0812-3456-7890',
       address: 'Jl. Sudirman No. 123, RT 001/RW 002, Kel. Senayan, Kec. Kebayoran Baru, Jakarta Selatan, DKI Jakarta, 12190',
       isDefault: true
