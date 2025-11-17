@@ -28,7 +28,7 @@ export default function CheckoutPage() {
     },
     {
       id: '2',
-      name: 'Jane Smith',
+      name: 'Pigai',
       phone: '0856-9876-5432',
       address: 'Jl. Thamrin No. 456, RT 003/RW 004, Kel. Menteng, Kec. Menteng, Jakarta Pusat, DKI Jakarta, 10310',
       isDefault: false
@@ -38,21 +38,12 @@ export default function CheckoutPage() {
   const products = [
     {
       id: '1',
-      name: 'iPhone 15 Pro Max 256GB Natural Titanium',
-      price: 24999000,
+      name: 'Jasa Service Laptop & PC',
+      price: 50000,
       quantity: 1,
       image: 'https://via.placeholder.com/80x80/242a2e/ffffff?text=iPhone',
-      shopName: 'Apple Official Store',
-      variant: '256GB, Natural Titanium'
-    },
-    {
-      id: '2',
-      name: 'AirPods Pro 2nd Generation with MagSafe Case',
-      price: 3299000,
-      quantity: 2,
-      image: 'https://via.placeholder.com/80x80/242a2e/ffffff?text=AirPods',
-      shopName: 'Apple Official Store',
-      variant: 'White'
+      shopName: 'Teknisi Jaya',
+      variant: 'Jasa Service Laptop'
     }
   ]
 
